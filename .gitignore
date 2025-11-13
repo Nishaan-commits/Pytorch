@@ -55,4 +55,5 @@ lightning_logs/
 wandb/
 huggingface/
 .cache/huggingface/
+raw/
 
