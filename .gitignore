@@ -1,21 +1,58 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
+*.pyd
+*.so
+*.swp
+*.DS_Store
 
-# Jupyter
+# Virtual Environments
+DL-env/ 
+
+# PyTorch model files
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+
+# Training logs & runs
+runs/
+logs/
+tensorboard/
+checkpoints/
+events.out.tfevents.*
+
+# Data
+data/
+datasets/
+*.npy
+*.npz
+
+# Notebook
 .ipynb_checkpoints/
 
-# Environments
-DL-env/
+# Cache
+.cache/
+torch_cache/
+torch_extensions/
 
-# Data / models
-*.csv
-*.tsv
-*.zip
-*.h5
-*.pkl
-*.joblib
+# Build / Cuda
+*.o
+*.out
+build/
+dist/
+*.egg-info/
 
-# VS Code
+# IDE
 .vscode/
+.idea/
+*.iml
+
+# Optional
+lightning_logs/
+wandb/
+huggingface/
+.cache/huggingface/
+
