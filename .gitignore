@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+DL-env/
+
+# Data / models
+*.csv
+*.tsv
+*.zip
+*.h5
+*.pkl
+*.joblib
+
+# VS Code
+.vscode/
