@@ -29,6 +29,7 @@ data/
 datasets/
 *.npy
 *.npz
+*.tgz
 
 # Notebook
 .ipynb_checkpoints/

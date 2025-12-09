@@ -1,3 +1,0 @@
-⌨️  PyTorch basics: tensors, gradients, and autograd
-⌨️  Linear regression & gradient descent from scratch
-⌨️  Using PyTorch modules: nn.Linear & nn.functional

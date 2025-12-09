@@ -1,0 +1,19 @@
+
+1.    Find a dataset online (see the "Where to Find Datasets" section below)
+2.    Understand and describe the modeling objective clearly
+        - What type of data is it? (images, text, audio, etc.)
+        - What type of problem is it? (regression, classification, generative modeling, etc.)
+3.    Clean the data if required and perform exploratory analysis (plot graphs, ask questions)
+4.    Modeling
+        - Define a model (network architecture)
+            -> Use a pretrained model with/without pretrained weights and Build a Custom Model
+        - Pick some hyperparameters
+        - Train the model
+        - Make predictions on samples
+        - Evaluate on the test dataset
+        - Save the model weights
+        - Record the metrics
+        - Try different hyperparameters & regularization
+5.    Conclusions - summarize your learning & identify opportunities for future work
+6.    Publish and submit your Jupyter notebook
+7.    (Optional) Write a blog post to describe your experiments and summarize your work. Use Medium or Github pages.
